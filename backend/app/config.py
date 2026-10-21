@@ -1,0 +1,20 @@
+"""All limits and thresholds live here (see TRD section 7)."""
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+ARTIFACTS_DIR = BASE_DIR / "artifacts"
+STORAGE_DIR = BASE_DIR.parent / "storage"
+
+FRONTEND_ORIGIN = "http://localhost:5173"
+
+MAX_UPLOAD_MB = 20
+MAX_ROWS_FOR_TRAINING = 50_000
+SESSION_RETENTION_HOURS = 2
+CLEANUP_INTERVAL_MIN = 10
+MISSING_DROP_COLUMN_THRESHOLD = 0.60
+ID_LIKE_UNIQUE_RATIO = 0.95
+NUMERIC_PARSE_THRESHOLD = 0.90
+TASK_CLASSIFICATION_MAX_UNIQUE = 20
+TEST_SIZE = 0.20
+RANDOM_STATE = 42
+MODEL_TIME_LIMIT_SEC = 60

@@ -1,0 +1,11 @@
+# After Phase 2 decide ONE scikit-learn version and pin it here AND in the Colab notebooks (e.g. scikit-learn==X.Y.Z)
+fastapi
+uvicorn[standard]
+python-multipart
+pandas
+numpy
+openpyxl
+joblib
+scikit-learn
+pytest
+httpx
