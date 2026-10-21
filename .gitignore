@@ -1,0 +1,20 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Node
+node_modules/
+dist/
+# Secrets
+.env
+# Data (never push datasets or user files)
+data/*
+!data/.gitkeep
+storage/*
+!storage/.gitkeep
+# Notebooks
+.ipynb_checkpoints/
+# OS
+.DS_Store
