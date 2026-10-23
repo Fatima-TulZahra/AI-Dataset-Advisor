@@ -113,7 +113,7 @@ A simple web application where a beginner can upload a CSV or Excel file, unders
 | FR-15 | Provide Reset/Undo to return to the original. | Must |
 | FR-16 | Allow download of the cleaned file (CSV). | Must |
 
-## 7.4 Algorithm Recommendation
+## 7.4 Algorithm Recommendations
 
 | ID | Requirement | Priority |
 |---|---|---|
