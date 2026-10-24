@@ -1,0 +1,69 @@
+{
+  "task": "regression",
+  "meta_cols": [
+    "n_rows",
+    "n_cols",
+    "log_n_rows",
+    "rows_per_col",
+    "numeric_ratio",
+    "categorical_ratio",
+    "missing_pct",
+    "mean_abs_correlation",
+    "mean_cardinality",
+    "target_skew",
+    "target_kurtosis"
+  ],
+  "algos": [
+    "Ridge",
+    "KNN",
+    "DecisionTree",
+    "RandomForest",
+    "HistGB",
+    "SVR"
+  ],
+  "n_train_datasets": 74,
+  "sklearn_version": "1.6.1",
+  "created": "2026-10-24",
+  "metrics": {
+    "cross_validation": {
+      "Meta-model": {
+        "top1_hit": 0.595,
+        "top3_hit": 0.878,
+        "regret@1": 0.043,
+        "regret@3": 0.006
+      },
+      "Always HistGB (best on average)": {
+        "top1_hit": 0.554,
+        "top3_hit": 0.946,
+        "regret@1": 0.045,
+        "regret@3": 0.003
+      },
+      "Random choice": {
+        "top1_hit": 0.247,
+        "top3_hit": 0.625,
+        "regret@1": 0.194,
+        "regret@3": 0.032
+      }
+    },
+    "heldout": {
+      "Meta-model": {
+        "top1_hit": 0.733,
+        "top3_hit": 0.933,
+        "regret@1": 0.023,
+        "regret@3": 0.002
+      },
+      "Always HistGB (best on average)": {
+        "top1_hit": 0.733,
+        "top3_hit": 0.933,
+        "regret@1": 0.023,
+        "regret@3": 0.002
+      },
+      "Random choice": {
+        "top1_hit": 0.376,
+        "top3_hit": 0.759,
+        "regret@1": 0.171,
+        "regret@3": 0.015
+      }
+    }
+  }
+}
