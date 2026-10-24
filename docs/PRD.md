@@ -6,7 +6,7 @@ title: "AI Dataset Advisor: Product Requirements Document (PRD)"
 |---|---|
 | **Project** | AI Dataset Advisor |
 | **Institution** | Department of Computer Science, Rachna College of Engineering and Technology (A Constituent College of UET Lahore) |
-| **Team** | Mubashra Nadeem (2024-CS-404), Laiba Ilyas (2024-CS-410), Fatima Tul Zahra (2024-CS-420) |
+| **Team** | Mubashra Nadeem, Laiba Ilyas, Fatima Tul Zahra |
 | **Supervisor** | Dr. Natasha Nigar |
 | **Document version** | 1.0 (Draft) |
 
@@ -113,7 +113,7 @@ A simple web application where a beginner can upload a CSV or Excel file, unders
 | FR-15 | Provide Reset/Undo to return to the original. | Must |
 | FR-16 | Allow download of the cleaned file (CSV). | Must |
 
-## 7.4 Algorithm Recommendation
+## 7.4 Algorithm Recommendations
 
 | ID | Requirement | Priority |
 |---|---|---|
