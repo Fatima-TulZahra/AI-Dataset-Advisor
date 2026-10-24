@@ -1,0 +1,22 @@
+did,name,task,error
+43665,Indian-Liver-Patient-Records,regression,regression target unusable
+43403,Indian-Liver-Patient-Patient-Records-KFolds-5folds,regression,regression target unusable
+1464,blood-transfusion-service-center,regression,regression target unusable
+43582,Pima-Indians-Diabetes,regression,regression target unusable
+43483,Pima-Indians-Diabetes-Dataset,regression,regression target unusable
+37,diabetes,regression,regression target unusable
+31,credit-g,regression,regression target unusable
+42464,Waterstress,regression,regression target unusable
+43672,Heart-Disease-Dataset-(Comprehensive),regression,regression target unusable
+42931,audit-data,regression,regression target unusable
+43442,Is-this-a-good-customer,regression,regression target unusable
+43888,communities-and-crime-binary,regression,regression target unusable
+45540,Contaminant-detection-in-packaged-cocoa-hazelnut-spread-jars-using-Microwaves-Sensing-and-Machine-Learning-11.0GHz(Urbinati),regression,regression target unusable
+45539,Contaminant-detection-in-packaged-cocoa-hazelnut-spread-jars-using-Microwaves-Sensing-and-Machine-Learning-10.5GHz(Urbinati),regression,regression target unusable
+45537,Contaminant-detection-in-packaged-cocoa-hazelnut-spread-jars-using-Microwaves-Sensing-and-Machine-Learning-9.5GHz(Urbinati),regression,regression target unusable
+301,ozone_level,regression,regression target unusable
+45586,Bank-Churn,regression,regression target unusable
+45016,default-of-credit-card-clients,regression,regression target unusable
+44052,compass,regression,regression target unusable
+43978,credit,regression,regression target unusable
+45014,jannis,regression,regression target unusable
